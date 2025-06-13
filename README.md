@@ -27,30 +27,9 @@ A responsive React-based web application that allows users to compare smartphone
   - Includes a “Clear All” button to reset selection.
   - 🖱️ **HOVER ZOOM**: On hovering over a product image, a zoom lens effect is applied using pure CSS.
   - 📱 **RESPONSIVE LAYOUT**: Mobile-first and adjusts beautifully across devices.
-deployment
-
-📁 **Folder Structure**
-my-react-page/
-├── public/
-├── src/
-│   ├── components/
-│   │   └── ProductCard.jsx
-        └── ProductCard.css
-│   ├── data/
-│   │   └── products.js
-        └── App.js
-        └── App.css
-        └── ...
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── package.json
-└── README.md
-
-/
 
 🛠️ **Built With**
--- REACT
+-- **REACT**
 
 -- JSX
 
