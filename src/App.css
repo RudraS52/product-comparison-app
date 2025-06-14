@@ -1,3 +1,10 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .App {
   padding: 17px;
   font-family: Arial, sans-serif;
@@ -32,9 +39,9 @@
 
 /* Button styles */
 button {
-  padding: 8px 14px;
+  padding: 5px 9px;
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 11px;
   background-color: #007bff; /* Blue */
   color: white;
   border: none;
@@ -131,7 +138,7 @@ body {
   list-style: none;
   padding: 0;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
 }
 
 .product-card button {
@@ -187,16 +194,27 @@ button.selected {
   z-index: 10;
   position: relative;
 }
+
 @media (max-width: 768px) {
   .compare-grid {
-    flex-wrap: nowrap;
-    overflow-x: auto;
+    display:-webkit-box !important;
+    flex-wrap: nowrap !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    gap: 16px;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    gap: 12px;
+    scroll-padding-left: 10px; /* <-- ensures first item is not clipped */
   }
 
   .compare-card {
-    min-width: 250px; /* Ensure cards stay horizontal */
-    flex-shrink: 0;
+    flex: 0 0 auto;
+    min-width: 250px;
+    width: 80%;
+    scroll-snap-align: start;
+    box-sizing: border-box;
   }
 }
+

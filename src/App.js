@@ -47,8 +47,8 @@ function App() {
     <div className="compare-header">
       <h2>Compare Selected Products</h2>
       <button className="clear-all-btn" onClick={() => setCompareList([])}>
-        Clear all items
-      </button>
+        Clear all items 
+      </button><br></br>
     </div>
     <div className="compare-grid">
       {selectedProducts.map(product => (
