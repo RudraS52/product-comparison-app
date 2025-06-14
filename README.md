@@ -4,10 +4,20 @@ Rudra Singh
 
 📄 **License**
 This project is licensed under the MIT License.
+---
+### ⚠️ Browser Cache Note
+
+- If you're seeing old or UI issues after a new deployment, please do a **hard refresh** of the page:
+
+- **Windows/Linux**: Press `Ctrl + Shift + R`  
+- **Mac**: Press `Cmd + Shift + R`
+
+This forces the browser to reload the latest content from the server instead of using cached files.
 
 **Live Demo**
 -- The app is deployed and accessible here:
 🔗 https://rudras52.github.io/product-comparison-app/
+
 
 # Product Comparison App
 
