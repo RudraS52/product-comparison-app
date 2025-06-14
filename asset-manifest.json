@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/product-comparison-app/static/css/main.e3d80724.css",
+    "main.css": "/product-comparison-app/static/css/main.a04f48c0.css",
     "main.js": "/product-comparison-app/static/js/main.d307826e.js",
     "static/js/453.6e1f0f69.chunk.js": "/product-comparison-app/static/js/453.6e1f0f69.chunk.js",
     "index.html": "/product-comparison-app/index.html",
-    "main.e3d80724.css.map": "/product-comparison-app/static/css/main.e3d80724.css.map",
+    "main.a04f48c0.css.map": "/product-comparison-app/static/css/main.a04f48c0.css.map",
     "main.d307826e.js.map": "/product-comparison-app/static/js/main.d307826e.js.map",
     "453.6e1f0f69.chunk.js.map": "/product-comparison-app/static/js/453.6e1f0f69.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3d80724.css",
+    "static/css/main.a04f48c0.css",
     "static/js/main.d307826e.js"
   ]
 }
