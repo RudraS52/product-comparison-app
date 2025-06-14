@@ -187,3 +187,16 @@ button.selected {
   z-index: 10;
   position: relative;
 }
+@media (max-width: 768px) {
+  .compare-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px;
+  }
+
+  .compare-card {
+    min-width: 250px; /* Ensure cards stay horizontal */
+    flex-shrink: 0;
+  }
+}
